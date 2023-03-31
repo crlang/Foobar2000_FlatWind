@@ -1,0 +1,40 @@
+# 对文件的任何更改将在下一次运行 foobar2000 时生效。
+# 注意,大小限制使用 UTF-8 字节，非普通字符！
+# 注意，字段名称可以用引号括起来用于包含比如说尾随空格等。
+# 设置于基本字段列表中显示的元字段的大小限制
+basicMetaMax=2000
+# 未出现在任何一个列表中的元字段的大小限制
+defaultMetaMax=1000
+# 技术信息字段大小限制 
+infoMax=200
+
+# 基本元字段列表  -  基本信息，例如艺术家和标题
+fieldBasic=album
+fieldBasic=album artist
+fieldBasic=artist
+fieldBasic=composer
+fieldBasic=conductor
+fieldBasic=date
+fieldBasic=discnumber
+fieldBasic=genre
+fieldBasic=keywords
+fieldBasic=performer
+fieldBasic=producer
+fieldBasic=style
+fieldBasic=title
+fieldBasic=totaldiscs
+fieldBasic=totaltracks
+fieldBasic=tracknumber
+
+# 非常用元字段列表  -  很少用到的元字段，不会被缓存
+fieldSpam=accurate rip
+fieldSpam=aucdtect
+fieldSpam=biography
+fieldSpam=cuesheet
+fieldSpam=eac logfile
+fieldSpam=itunes_cddb_1
+fieldSpam=itunmovi
+fieldSpam=log
+fieldSpam=logfile
+fieldSpam=lyrics
+fieldSpam=unsynced lyrics
